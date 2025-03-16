@@ -64,9 +64,9 @@ def reboot_onu():
         ssh.connect(ONU_IP, username=ONU_USERNAME, password=ONU_PASSWORD)
 
         # Send reboot command
-#        reboot_command = 'reboot'  # Assuming 'reboot' is the correct command for the ONU
-#        print(f"Sending reboot command: {reboot_command}")  # Debugging output
-#        ssh.exec_command(reboot_command)
+        reboot_command = 'reboot'  # Assuming 'reboot' is the correct command for the ONU
+        print(f"Sending reboot command: {reboot_command}")  # Debugging output
+        ssh.exec_command(reboot_command)
 
         print("Rebooting ONU...")  # Debugging output
         ssh.close()
