@@ -17,4 +17,4 @@ You should change the default values and provide your own
 - GPON_COMMAND = '/opt/lantiq/bin/onu ploamsg'  *# Update this path if needed*
 - GPON_UP_STATE = 5
 - CHECK_INTERVAL = 60  *# In seconds, how often to check the state*
-- MAX_ATTEMPTS = 5  *# Number of consecutive attempts to check the state*
+- MAX_ATTEMPTS = 2  *# Number of consecutive attempts to check the state*

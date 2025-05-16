@@ -1,0 +1,7 @@
+services:
+  gpon-checker:
+    image: rokpotocnik/gpon-monitor:0.3
+    restart: unless-stopped
+    container_name: gpon-checker
+    environment:
+      - ONU_IP=192.168.20.60
